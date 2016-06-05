@@ -58,7 +58,7 @@ class SmithyMapViewController {
 All blocks of code, in general should be treated the same. A block of code is delimited by `{` and `}`. A few rules apply to this.
 
 #### 1. Opening
-It always leaves a space from the same line as the code that's declaring this block. Afterwards, a blank line should always be added.
+Blocks always open in the same line as the code that's declaring this block. Afterwards, a blank line should always be added.
 
 ```
 class MyView: UIView {
@@ -86,6 +86,24 @@ myView.keepAnimatedWithDuration(interval) {
 ```
 
 #### 2. Closing
+Blocks close right after the last line of code of the block and leave a blank line to the next line of code, except it's a nested block and whose parent block needs to close as well.
+
+Single close:
+```
+  [code]
+}
+
+[code]
+```
+
+Nested close:
+```
+    [code]
+  }
+}
+
+[code]
+```
 
 #### 3. Intermediate
 } else {
