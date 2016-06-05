@@ -9,6 +9,7 @@ This style guide means to address the proper spacing in a Swift file to achieve 
 * [Imports](#Imports)
 * [Multiple Entities](#Multiple-Entities)
 * [Blocks of Code](#Blocks-of-Code)
+* [Returns](#Returns)
 * [Comments](#Comments)
 * [Other Separations](#Other-Separations)
 
@@ -199,6 +200,20 @@ default:
 }
 
 [code]
+```
+
+## Returns
+The returned object from a `func` or closure is typically important. Separate it from the rest of the code with a blank line.
+
+```
+func formattedAddress(street: String, city: String?, zipCode: String?, country: String) {
+
+  var formattedAddress = ""
+
+  [code]
+
+  return formattedAddress
+}
 ```
 
 ## Comments
