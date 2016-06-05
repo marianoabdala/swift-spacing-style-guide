@@ -273,7 +273,7 @@ let lastNameLabel = UILabel()
 lastNameLabel.text = "Last Name"
 ```
 
-Initializing variables versus doing something with it:
+Initializing variables versus doing something with them:
 ```
 init(withConfig: ConfigStore, client: MyApiClient) {
 
