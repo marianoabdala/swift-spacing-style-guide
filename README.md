@@ -14,6 +14,7 @@ This style guide means to address the proper spacing in a Swift file to achieve 
 * [Blocks of Code](#Blocks-of-Code)
 * [Comments](#Comments)
 * [Other Separations](#Other-Separations)
+* [Changes](#Changes)
 * [Common Examples](#Common-Examples)
 
 ## Headers
@@ -48,7 +49,7 @@ protocol MediaType {
 
 ## Imports
 
-Each `import` should occupy a new line. No blank lines between `import`s should be added, regardless of the amount of `import`s. After all imports are declared, a blank line should be added before the entity declaration.
+Each `import` should occupy a new line. After all imports are declared, a blank line should be added before the entity declaration.
 
 ```
 import Foundation
@@ -203,5 +204,32 @@ if task.assignee == currentUser {
   [code]
 }
 ```
+
+## Other Separations
+
+Blank lines can be used to separate different sections of code to create logical groups. A single line of separation should be enough.
+
+SDK vs. 3rd parties imports:
+```
+import Foundation
+import UIKit
+import MapKit
+import CoreLocation
+
+import ReactiveCocoa
+import EasyPeasy
+```
+
+Private vs. Public properties
+```
+let name: String
+let age: Int
+
+private let apiClient: MyApiClient
+private let credentialsStorage: MyCredentialsStorage
+```
+
+## Changes
+Adding tabs or extra spaces when commiting.
 
 ## Common Examples
