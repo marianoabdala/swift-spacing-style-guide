@@ -7,6 +7,7 @@ This style guide means to address the proper spacing in a Swift file to achieve 
 * [Headers](#Headers)
 * [Footers](#Footers)
 * [Imports](#Imports)
+* [Multiple Entities](#Multiple-Entities)
 * [Blocks of Code](#Blocks-of-Code)
 * [Comments](#Comments)
 * [Other Separations](#Other-Separations)
@@ -52,6 +53,27 @@ import MapKit
 class SmithyMapViewController {
 
   [code]
+```
+
+## Multiple Entities
+
+A file may define multiple entities. One blank line of separation should be added between them.
+
+```
+enum MyEnum {
+
+  [code]
+}
+
+class MyClass {
+
+  [code]
+}
+
+extension MyClass {
+
+  [code]
+}
 ```
 
 ## Blocks of Code
