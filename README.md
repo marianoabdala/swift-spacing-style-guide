@@ -70,7 +70,7 @@ class MyView: UIView {
 or
 
 ```
-while (total >= maximum) {
+while total >= maximum {
 
   [code]
 }
