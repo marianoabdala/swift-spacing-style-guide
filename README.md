@@ -150,6 +150,8 @@ array.map {
 
   [code]
 }
+
+[code]
 ```
 
 #### 5. Special case: The Switch Statement
