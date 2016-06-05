@@ -220,13 +220,22 @@ import ReactiveCocoa
 import EasyPeasy
 ```
 
-Private vs. Public properties
+Private vs. Public properties:
 ```
 let name: String
 let age: Int
 
 private let apiClient: MyApiClient
 private let credentialsStorage: MyCredentialsStorage
+```
+
+Initialization and configuration of different objects:
+```
+let firstNameLabel = UILabel()
+firstNameLabel.text = "First Name"
+
+let lastNameLabel = UILabel()
+lastNameLabel.text = "Last Name"
 ```
 
 ## Changes
