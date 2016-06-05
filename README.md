@@ -160,4 +160,28 @@ array.map {
 
 #### 5. Special case: The Switch Statement
 
+The switch statement is special because it doesn't use curly braces to define the blocks of code that should be executed in each case. Indent `case`s in the same level as `switch` and use a blank line after every option and an extra blank line after it, unless it's the final option.
+
+Like this:
+```
+switch compassPoint {
+
+case .North:
+
+  [code]
+  
+case .South:
+
+  [code]
+  
+default:
+
+  [code]
+}
+
+[code]
+```
+
+
+
 ## Common Examples
