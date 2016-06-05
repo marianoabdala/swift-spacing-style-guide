@@ -255,3 +255,14 @@ firstNameLabel.text = "First Name"
 let lastNameLabel = UILabel()
 lastNameLabel.text = "Last Name"
 ```
+
+Initializing variables versus doing something with it:
+```
+init(withConfig: ConfigStore, client: MyApiClient) {
+
+  self.config = config
+  self.client = client
+  
+  self.setupBindings()
+}
+```
