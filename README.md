@@ -2,10 +2,6 @@
 
 This style guide means to address the proper spacing in a Swift file to achieve maximum readability. It may change over time and pull requests are greatly apreciated.
 
-# Quick Comparison
-
-[[TWO IMAGES OF THE SAME FILE WITH DIFFERENT APPROACHES]]
-
 # Table of Contents
 
 * [Headers](#Headers)
@@ -14,8 +10,6 @@ This style guide means to address the proper spacing in a Swift file to achieve 
 * [Blocks of Code](#Blocks-of-Code)
 * [Comments](#Comments)
 * [Other Separations](#Other-Separations)
-* [Changes](#Changes)
-* [Common Examples](#Common-Examples)
 
 ## Headers
 
@@ -239,8 +233,3 @@ firstNameLabel.text = "First Name"
 let lastNameLabel = UILabel()
 lastNameLabel.text = "Last Name"
 ```
-
-## Changes
-Adding tabs or extra spaces when commiting.
-
-## Common Examples
