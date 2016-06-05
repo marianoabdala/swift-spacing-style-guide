@@ -106,10 +106,37 @@ Nested close:
 ```
 
 #### 3. Intermediate
+There are some flow control expressions that serve as connector for two blocks of code. In this case, both the opening and closing share the same line. A blank line of code should be added previous to this expressions, and like with every other opeining, an extra line should be added afterwards.
+
+Some examples:
+```
+  [code]
+  
+} else if x > width {
+
+  [code]
+```
+
+```
+  [code]
+  
 } else {
+
+  [code]
+```
+
+```
+  [code]
+  
+} catch MyError.InvalidSelection {
+
+  [code]
+```
 
 #### 4. Chaninng
 .map {
 }
+
+#### 5. Special case: The Switch Statement
 
 ## Common Examples
