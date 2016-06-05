@@ -195,6 +195,8 @@ print(name) // Prints the name of the user in the console.
 
 Full line:
 ```
+[code]
+
 // We are safe to mark this as done since it's asigned to the current user.
 if task.assignee == currentUser {
 
