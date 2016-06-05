@@ -134,8 +134,23 @@ Some examples:
 ```
 
 #### 4. Chaninng
-.map {
+
+Closures chaining is a special case of blocks of code. When chaining, consecutive closures invokations should start on a new line along with the `.` accessor.
+
+```
+array.map {
+
+  [code]
 }
+.filter {
+
+  [code]
+}
+.reduce("") {
+
+  [code]
+}
+```
 
 #### 5. Special case: The Switch Statement
 
