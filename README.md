@@ -7,7 +7,8 @@ This style guide means to address the proper spacing in a Swift file to achieve 
 * [Headers](#Headers)
 * [Footers](#Footers)
 * [Imports](#Imports)
-* [Common Examples](#CommonExamples)
+* [Blocks of Code](#Blocks-of-Code)
+* [Common Examples](#Common-Examples)
 
 ## Headers
 
@@ -51,5 +52,45 @@ class SmithyMapViewController {
 
   ...
 ```
+
+## Blocks of Code
+
+All blocks of code, in general should be treated the same. A block of code is delimited by `{` and `}`. A few rules apply to this.
+
+** 1. Opening **
+It always leaves a space from the same line as the code that's declaring this block. Afterwards, a blank line should always be added.
+
+```
+class MyView: UIView {
+
+  ...
+}
+```
+
+or
+
+```
+while (condition == true) {
+
+  ...
+}
+
+or
+
+```
+myView.keepAnimatedWithDuration(interval) {
+
+  ...
+}
+```
+
+** 2. Closing **
+
+** 3. Intermediate **
+} else {
+
+** 4. Chaninng **
+.map {
+}
 
 ## Common Examples
