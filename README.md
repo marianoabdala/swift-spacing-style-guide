@@ -220,8 +220,10 @@ import ReactiveCocoa
 import EasyPeasy
 ```
 
-Private vs. Public properties:
+Properties type and scope:
 ```
+static let LegalDrinkingAge = 18
+
 let name: String
 let age: Int
 
