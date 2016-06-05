@@ -57,7 +57,7 @@ class SmithyMapViewController {
 
 All blocks of code, in general should be treated the same. A block of code is delimited by `{` and `}`. A few rules apply to this.
 
-** 1. Opening **
+#### 1. Opening
 It always leaves a space from the same line as the code that's declaring this block. Afterwards, a blank line should always be added.
 
 ```
@@ -70,7 +70,7 @@ class MyView: UIView {
 or
 
 ```
-while (condition == true) {
+while (total >= maximum) {
 
   ...
 }
@@ -85,12 +85,12 @@ myView.keepAnimatedWithDuration(interval) {
 }
 ```
 
-** 2. Closing **
+#### 2. Closing
 
-** 3. Intermediate **
+#### 3. Intermediate
 } else {
 
-** 4. Chaninng **
+#### 4. Chaninng
 .map {
 }
 
