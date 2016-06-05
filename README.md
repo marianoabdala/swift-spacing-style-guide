@@ -12,6 +12,8 @@ This style guide means to address the proper spacing in a Swift file to achieve 
 * [Footers](#Footers)
 * [Imports](#Imports)
 * [Blocks of Code](#Blocks-of-Code)
+* [Comments](#Comments)
+* [Other Separations](#Other-Separations)
 * [Common Examples](#Common-Examples)
 
 ## Headers
@@ -182,6 +184,22 @@ default:
 [code]
 ```
 
+## Comments
 
+For inline comments, a blank space should be added after the end of the code. For full line comments a blank line should be added before it. Both should have a space between the `//` and the comment itself.
+
+In line:
+```
+print(name) // Prints the name of the user in the console.
+```
+
+Full line:
+```
+// We are safe to mark this as done since it's asigned to the current user.
+if task.assignee == currentUser {
+
+  [code]
+}
+```
 
 ## Common Examples
