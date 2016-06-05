@@ -7,6 +7,7 @@ This style guide means to address the proper spacing in a Swift file to achieve 
 * [Headers](#Headers)
 * [Footers](#Footers)
 * [Imports](#Imports)
+* [Common Examples](#CommonExamples)
 
 ## Headers
 
@@ -51,5 +52,4 @@ class SmithyMapViewController {
   ...
 ```
 
-
-
+## Common Examples
