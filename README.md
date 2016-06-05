@@ -2,7 +2,7 @@
 
 This style guide means to address the proper spacing in a Swift file to achieve maximum readability. It may change over time and pull requests and comments are greatly apreciated.
 
-If you "like to see as much of your code as possible and adding _unnecessary_ extra while lines", maybe you need a larger display or you should consider refactoring your files into smaller chuncks.
+If you "like to see as much of your code as possible and you think adding _unnecessary_ extra while lines goes against this", maybe you need a larger display or maybe you should consider refactoring your files into smaller chuncks.
 
 # Table of Contents
 
