@@ -2,6 +2,8 @@
 
 This style guide means to address the proper spacing in a Swift file to achieve maximum readability. It may change over time and pull requests and comments are greatly apreciated.
 
+If you `like to see as much of your code as possible`, maybe you need a larger display or you should consider refactoring your files into smaller chuncks.
+
 # Table of Contents
 
 * [Headers](#Headers)
@@ -25,7 +27,7 @@ Avoid starting your files with things like:
 //
 ```
 
-The very first line of a file should be an `import`.
+Typically the very first line of a file should be an `import`.
 
 ```
 import Foundation
