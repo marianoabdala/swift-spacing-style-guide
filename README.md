@@ -35,7 +35,7 @@ Files should end with an empty line.
 ```
 protocol MediaType {
 
-  ...
+  [code]
 }
 
 ```
@@ -50,7 +50,7 @@ import MapKit
 
 class SmithyMapViewController {
 
-  ...
+  [code]
 ```
 
 ## Blocks of Code
@@ -63,7 +63,7 @@ It always leaves a space from the same line as the code that's declaring this bl
 ```
 class MyView: UIView {
 
-  ...
+  [code]
 }
 ```
 
@@ -72,7 +72,7 @@ or
 ```
 while (total >= maximum) {
 
-  ...
+  [code]
 }
 ```
 
@@ -81,7 +81,7 @@ or
 ```
 myView.keepAnimatedWithDuration(interval) {
 
-  ...
+  [code]
 }
 ```
 
